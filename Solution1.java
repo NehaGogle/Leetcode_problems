@@ -1,5 +1,9 @@
 /*
 Problem : Two sum
+Difficulty : Easy
+Link : https://leetcode.com/problems/two-sum/
+Time Complexity : O(n^2)
+Space Complexity : O(1)
 Given : 1) Array of Integer = nums
         2) Target 
 In simple term,
