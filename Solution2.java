@@ -1,5 +1,8 @@
 /*
     * Problem Statement: https://leetcode.com/problems/add-two-numbers/
+    * Difficulty: Medium
+    * Time Complexity: O(max(m, n)) where m and n are lengths of l
+    * Space Complexity: O(max(m, n)) for the result linked list
     * Given : 1) Linked List 1 = l1
     *         2) Linked List 2 = l2
     *         L1 & L2 = Non empty Linked list (+Ve Integers (Numbers)) 1) Traverse both linked list
@@ -58,6 +61,8 @@ public class Solution2 {
         // Return the next of dummy head as the result list
         return dummyHead.next;
     }
+    
+    // Main Method not required for LeetCode submission
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Solution2 solution = new Solution2();
@@ -97,6 +102,7 @@ public class Solution2 {
     }
 }
 
+//Not required for LeetCode submission
 // Creating List Nodes
 class ListNode {
   int val;
