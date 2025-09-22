@@ -12,12 +12,19 @@ In simple term,
             "TARGET"
     If target matched : Return Index of integers {i, j}
     else : Return {0, 0}
+ Approach :
+    1) Traverse the array using two loops
+    2) In inner loop check sum of two elements
+    3) If sum is equal to target return the index of elements
 
 Here is Java Solution :
 */
 
 import java.util.*;
 public class Solution1 {
+    // Brute Force Approach (nested loop)
+    // pros : simple to implement
+    // cons : slow for large input
     public int[] twoSum(int[] nums, int target) {
         int a = 0, b = 0;
          for(int i = 0; i < nums.length; i++){
